@@ -1,0 +1,28 @@
+
+
+  <body>
+
+    <h2>Login Form</h2>
+    <p style="color:red;" *ngIf="invalid">Invalid</p>
+    <form #f="ngForm" (ngSubmit)="modifier(f)">
+      <div class="imgcontainer">
+        <img src="../../assets/11873266.png" alt="Avatar" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" required ngModel name="username">
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" required ngModel name="password">
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+     
+    </form>
+    
+    </body>

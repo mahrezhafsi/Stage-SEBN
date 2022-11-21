@@ -1,0 +1,11 @@
+<h1>Modifier Produit</h1>
+<form #f="ngForm" (ngSubmit)="modifier(f)">
+    Id <input type="number" name="id" [(ngModel)]="p.id" readonly>
+    Marque <input type="text" name="marque" [(ngModel)]="p.Marque">
+   Prix <input type="number" name="prix" [(ngModel)]="p.Prix" >
+   Stock <input type="number" name="stock" [(ngModel)]="p.Stock" >
+
+   <button type="submit">valider</button>
+</form>
+
+

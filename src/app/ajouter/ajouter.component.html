@@ -1,0 +1,16 @@
+
+<div  class="ss">
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+<fieldset>
+<legend><h1>Formulaire pour ajouter un produit</h1></legend>
+<form #f="ngForm" (ngSubmit)="ajouter(f)">
+  marque <input type="text" required ngModel name="marque"> <br><br>
+  prix <input type="number" required ngModel name="prix" > <br><br>
+  stock <input type="number" required ngModel name="stock" > <br><br>
+
+  <button type="submit">Ajouter</button> 
+</form></fieldset>
+</div>

@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("CometFeedStoryMenuActionFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743378");c=b("FalcoLoggerInternal").create("comet_feed_story_menu_action",a);e.exports=c}),null);
+__d("GroupsCometRemovePostCommentAsAdminDialogQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5377595479022452"}),null);
+__d("GroupsCometSubgroupsRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5346553305432696"}),null);

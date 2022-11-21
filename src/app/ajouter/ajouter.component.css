@@ -1,0 +1,24 @@
+
+.ss{
+    background-image:url(../../assets/ajouter.jfif);
+    background-size: cover;
+    padding-bottom: 300px;
+   
+}
+
+
+h1,h2{text-align: center;color:purple;font-style: oblique;
+}
+form,legend{text-align: center}
+fieldset,button{width: 500px;height:300px ;display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    button{width: 150px;height:30px ;display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: purple;
+        font-size: large;
+    }
+
+

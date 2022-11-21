@@ -1,0 +1,188 @@
+.cadre {
+	border: 1px dashed #E4E4E4;
+}
+.troisbords {
+	border: 1px solid #E5E5E5;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0099CC;
+	
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #0099CC;
+	text-decoration: none;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0099FF;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF6600;
+	text-decoration: underline;
+}
+a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006699;
+	text-decoration: none;
+}
+
+.box {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #F5F5F5;
+	border: 1px solid #999999;
+}
+
+A {
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+}
+.texttop A:visited{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #003366;
+}
+.texttop A:active{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF7F50;
+}
+.texttop A:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FF7F50;
+	text-decoration : none;
+}
+.texttop A:link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #003366;
+} 
+.texte {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.requiredinput {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+.textgras {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+}
+
+.textemenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+
+}
+.titre1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF6600;
+}
+.dateactualite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #0066CC;
+}
+.titre2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0000CC;
+	text-decoration: none;
+}
+
+.textear {
+	font-family: "Tahoma";
+	font-size: 13px;
+}
+.textemenuar {
+	font-family: "Arabic Transparent";
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.textepetit {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.textepetit {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#999999;
+}
+.titre3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.msg_ok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: green;
+}
+
+.go {
+	position: relative;
+    top: -10px;
+}
+
+i.icon-fa-dashoboard {
+    font-size: 60px;
+    background-size: cover;
+    height: 45px;
+    color: #0e8395;
+}
+
+p.sub-shop-button {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+i.icon-fa-dashoboard.fa-id-card-o, i.icon-fa-dashoboard.fa-credit-card-alt  {
+    color: #d00524;
+}
+
+i.icon-fa-dashoboard.fa-university, i.icon-fa-dashoboard.fa-graduation-cap,i.icon-fa-dashoboard.fa-print {
+    color: #40aeff;
+}
+
+.mbox {
+	padding-top: 25px;
+	padding-bottom: 20px; 
+	width: 25%;
+}

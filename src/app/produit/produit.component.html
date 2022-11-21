@@ -1,0 +1,19 @@
+
+<div  class="img2">
+    <img  src="../../assets/img1m.jpg" width="200px"  alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img  src="../../assets/produkt_intro.jpg" width="200px" alt="">
+</div>
+
+<br><br><br>
+
+<div *ngFor="let p of lesproduits;let i = index;">
+<img class="img" src="../assets/img{{p.id}}.jpg" (click)="det(p.id)"> <br> <br> 
+
+<div class="container bg-light">
+    <div class="col-md-12 text-center">
+<button type="button" class="btn btn-outline-primary" *ngIf="connecter()" routerLink="/modifier/{{p.id}}">Modifier</button>&nbsp;&nbsp;&nbsp;
+<button type="button" class="btn btn-outline-primary" *ngIf="connecter()" routerLink="/supprimer/{{p.id}}">Supprimer</button>
+<br><br>
+</div>
+</div>
+</div>
